@@ -1,0 +1,86 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"NgIgCP0osK\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0646\u0638\u0627\u0645 \u0645\u0633\u062a\u0648\u062f\u0639\u0627\u062a \u0627\u0644\u0635\u064a\u0627\u0646\u0629</span>\",\"col\":12}},{\"id\":\"SpzQHEm09d\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item\",\"col\":4}},{\"id\":\"gZAfGBI6UP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock Entry\",\"col\":4}},{\"id\":\"jVPHn8vMX3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Receipt Type\",\"col\":4}},{\"id\":\"RezAqhTa-m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Supply Officer\",\"col\":4}},{\"id\":\"O0t6pciNs_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Warehouse\",\"col\":4}},{\"id\":\"o3cbJ_et6R\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Item Alternative\",\"col\":4}},{\"id\":\"Um3eMcb4Wb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Putaway Rule\",\"col\":4}}]",
+ "creation": "2025-07-13 15:35:11.513028",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "stock",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "\u0646\u0638\u0627\u0645 \u0645\u0633\u062a\u0648\u062f\u0639\u0627\u062a \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+ "links": [],
+ "modified": "2025-07-13 16:23:26.691970",
+ "modified_by": "Administrator",
+ "module": "Masar JAF",
+ "name": "\u0646\u0638\u0627\u0645 \u0645\u0633\u062a\u0648\u062f\u0639\u0627\u062a \u0627\u0644\u0635\u064a\u0627\u0646\u0629",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 35.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Item",
+   "link_to": "Item",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Warehouse",
+   "link_to": "Warehouse",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Receipt Type",
+   "link_to": "Receipt Type",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock Entry",
+   "link_to": "Stock Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Item Alternative",
+   "link_to": "Item Alternative",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Supply Officer",
+   "link_to": "Supply Officer",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Putaway Rule",
+   "link_to": "Putaway Rule",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "\u0646\u0638\u0627\u0645 \u0645\u0633\u062a\u0648\u062f\u0639\u0627\u062a \u0627\u0644\u0635\u064a\u0627\u0646\u0629"
+}
