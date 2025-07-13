@@ -137,14 +137,17 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Stock Entry": {
+        "validate": "masar_jaf.custom.stock_entry.stock_entry.validate",
+		"on_submit": "masar_jaf.custom.stock_entry.stock_entry.on_submit"
+	}
+}
 
+doctype_js = {
+    "Stock Entry" : "custom/stock_entry/stock_entry.js",
+    "Item" : "custom/item/item.js"
+}
 # Scheduled Tasks
 # ---------------
 
@@ -242,3 +245,17 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "in", [
+                "Stock Entry-custom_receipt_type",
+                "Stock Entry-custom_receipt_type_name",
+                "Stock Entry-custom_invoice_no",
+                "Item-custom_issue_type",
+                "Item-custom_alternative_code",
+                "Item-custom_supply_officer_code"
+            ]
+        ]
+    ]}
+]
